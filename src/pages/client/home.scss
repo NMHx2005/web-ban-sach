@@ -1,0 +1,19 @@
+.homePage {
+    max-width: 1440px;
+    margin: 0px auto;
+    display: flex;
+
+    .category__Homepage {
+        width: 15%;
+        // border: 3px solid #000;
+        background-color: white;
+        border-radius: 12px;
+    }
+
+    .listBook_homepage {
+        // border: 3px solid rgb(171, 168, 168);
+        border-radius: 12px;
+        flex: 1;
+        background-color: white;
+    }
+}

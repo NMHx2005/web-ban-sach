@@ -1,0 +1,11 @@
+.step__order {
+    display: none;
+    /* Ẩn mặc định trên mobile */
+}
+
+@media (min-width: 576px) {
+    .step__order {
+        display: block;
+        /* Hiển thị trên màn lớn hơn */
+    }
+}

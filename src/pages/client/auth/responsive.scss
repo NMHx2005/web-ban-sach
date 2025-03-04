@@ -1,0 +1,38 @@
+.login__container {
+    width: 30%;
+    margin: 100px auto;
+    height: auto;
+    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+    padding: 50px;
+    border-radius: 12px;
+}
+
+@media screen and (max-width: 1024px) {
+    .login__container {
+        width: 50%;
+        padding: 40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .login__container {
+        width: 70%;
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .login__container {
+        width: 90%;
+        padding: 20px;
+        margin: 50px auto;
+    }
+
+    .text-large {
+        font-size: 20px;
+    }
+
+    button {
+        width: 100%;
+    }
+}
